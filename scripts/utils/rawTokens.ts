@@ -1,6 +1,5 @@
-import alfajores from "../../src/alfajores.tokens.json";
-import mainnet from "../../src/mainnet.tokens.json";
-import baklava from "../../src/baklava.tokens.json";
+import baseTestnet from "../../src/baseTestnet.tokens.json";
+// import mainnet from "../../src/mainnet.tokens.json";
 import { TokenInfo } from "@uniswap/token-lists";
 
 type IRawToken = Pick<TokenInfo, "address" | "name" | "symbol"> &
@@ -11,16 +10,15 @@ type IRawToken = Pick<TokenInfo, "address" | "name" | "symbol"> &
 
 type IRawTokenListJson = readonly IRawToken[];
 
-export const CELO_NETWORK_NAMES = ["alfajores", "baklava", "mainnet"] as const;
+export const CELO_NETWORK_NAMES = ["baseTestnet"] as const;
 export type ICeloNetwork = typeof CELO_NETWORK_NAMES[number];
 
 // assert the JSON is valid
 const rawTokensJson: {
   [network in ICeloNetwork]: [number, IRawTokenListJson];
 } = {
-  alfajores: [44787, alfajores],
-  baklava: [62320, baklava],
-  mainnet: [42220, mainnet],
+  baseTestnet: [84531, baseTestnet],
+  // mainnet: [42220, mainnet],
 };
 
 export const getNetworkTokens = (network: ICeloNetwork): IRawTokenListJson =>

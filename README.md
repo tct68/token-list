@@ -1,10 +1,10 @@
-# Ubeswap Token List
+# baseswap Token List
 
-Official token list of [Ubeswap](https://ubeswap.org).
+Official token list of [baseswap](https://baseswap.org).
 
 ## Contributing
 
-To add a token to Ubeswap:
+To add a token to baseswap:
 
 1. Fork the repo so that you can push edits to a version of this repo that you have write permissions to. See [docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo) for more details.
 2. Clone the repo. See [docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) for more details.

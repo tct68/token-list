@@ -1,0 +1,21 @@
+{
+  "name": "Unknown List",
+  "logoURI": "https://raw.githubusercontent.com/baseswap/default-token-list/master/logo.svg",
+  "keywords": ["celo", "baseswap", "defi"],
+  "timestamp": "2023-05-04T00:56:07.427Z",
+  "tokens": [
+    {
+      "address": "0x323b16B3f54fEB99b2053F7c419127FfB8B2917a",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "chainId": 84531,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswap/default-token-list/master/assets/asset_USDT.png"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 1,
+    "patch": 60
+  }
+}

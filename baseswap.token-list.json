@@ -1,0 +1,12 @@
+{
+  "name": "Unknown List",
+  "logoURI": "https://raw.githubusercontent.com/baseswap/default-token-list/master/logo.svg",
+  "keywords": ["celo", "baseswap", "defi"],
+  "timestamp": "2023-05-04T00:56:07.427Z",
+  "tokens": [],
+  "version": {
+    "major": 4,
+    "minor": 1,
+    "patch": 60
+  }
+}

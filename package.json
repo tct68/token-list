@@ -1,10 +1,10 @@
 {
-  "name": "@ubeswap/default-token-list",
+  "name": "@baseswap/default-token-list",
   "version": "4.1.60",
-  "description": "Ubeswap default token list",
-  "main": "ubeswap.token-list.json",
-  "repository": "git@github.com:ubeswap/default-token-list.git",
-  "author": "Ian Macalinao <ian@ubeswap.org>",
+  "description": "baseswap default token list",
+  "main": "baseswap.token-list.json",
+  "repository": "git@github.com:baseswap/default-token-list.git",
+  "author": "Ian Macalinao <ian@baseswap.org>",
   "license": "MIT",
   "devDependencies": {
     "@ethersproject/address": "^5.4.0",
@@ -33,8 +33,8 @@
     "prepare": "husky install"
   },
   "files": [
-    "ubeswap.token-list.json",
-    "ubeswap-experimental.token-list.json"
+    "baseswap.token-list.json",
+    "baseswap-experimental.token-list.json"
   ],
   "prettier": {}
 }
