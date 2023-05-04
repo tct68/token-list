@@ -1,5 +1,5 @@
 import baseTestnet from "../../src/baseTestnet.tokens.json";
-// import mainnet from "../../src/mainnet.tokens.json";
+import mainnet from "../../src/mainnet.tokens.json";
 import { TokenInfo } from "@uniswap/token-lists";
 
 type IRawToken = Pick<TokenInfo, "address" | "name" | "symbol"> &
@@ -18,7 +18,6 @@ const rawTokensJson: {
   [network in ICeloNetwork]: [number, IRawTokenListJson];
 } = {
   baseTestnet: [84531, baseTestnet],
-  // mainnet: [42220, mainnet],
 };
 
 export const getNetworkTokens = (network: ICeloNetwork): IRawTokenListJson =>
