@@ -3,5 +3,10 @@
     "address": "0x323b16B3f54fEB99b2053F7c419127FfB8B2917a",
     "name": "Tether USD",
     "symbol": "USDT"
+  },
+  {
+    "address": "0x8a5346489C517621Fbd4E36A5E31D3B27E54bBE1",
+    "name": "Truong Cong Thuong",
+    "symbol": "TCT"
   }
 ]
